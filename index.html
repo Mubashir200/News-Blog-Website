@@ -1,44 +1,132 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Blog - Home</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>News Blog Website</title>
   <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-</div>
-  <header>
-    <div class="navbar">
-      <div class="logo">My Blog</div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="blog.html">Blog</a></li>
-        </ul>
-      </nav>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">News Blog Website</div>
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+      <li><a href="/blog.html">Blog</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-text">
+      <h1>This is my blog news website</h1>
+      <p>Dive into the news that are trending today :)</p>
+      <div class="buttons">
+        <a href="#get-started" class="btn primary">Get Started</a>
+        <a href="#learn-more" class="btn secondary">Learn More</a>
+      </div>  
     </div>
-    <div class="heading"> 
-        <img src="images/img8.jpg" alt="" class="image8">
-      <h1 class="ah1">Welcome to my corner of the internet <br> Hope you enjoy the posts! </h1>
-      <p>Quickly design and customize responsive mobile-first sites with <br> 
-        Bootstrap, the world’s most popular front-end open source toolkit!</p>
-      <button class="button button1">Get Started</button> 
-      <button class="button button2">Learn More</button>
+
+    <div class="hero-image">
+      <img src="images/img8.jpg" alt="Blog Image">
+    </div>
+  </div>
+
+  <!-- second section of a home page -->
+  <div class="sup-hero">
+    <div class="sup-text">
+      <h1>A better way to start <br> building.</h1>
+    </div>
+    <div class="sup-text1">
+      <h2>Featured title</h2>
+      <p>Paragraph of text beneath the heading to explain the <br>heading. Here is just a bit more text.</p>
+      <h2>Featured title</h2>
+      <p>Paragraph of text beneath the heading to explain the <br>heading. Here is just a bit more text.</p>
+    </div>
+
+    <div class="sup-text2">
+      <h2>Featured title</h2>
+      <p>Paragraph of text beneath the heading to explain the <br>heading. Here is just a bit more text.</p>
+      <h2>Featured title</h2>
+      <p>Paragraph of text beneath the heading to explain the <br>heading. Here is just a bit more text.</p>
+    </div>
+
+  </div>
+  <div class="thought">
+    <div class="thought-text">
+      <h1><i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, commodi.</i></h1>
+    </div>
+  </div>
+  <div class="thought2">
+    <div class="thought-text2">
+      <h1><b>From our blog</b> <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta
+        mollitia. Officiis ad.</i></h1>
+    </div>
+  </div>
+
+  <!-- card section -->
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/img14.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pubg Mobile</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
-  </header>
-  <div class="middle">
-      <h1 class="ah2">A better way to have a news <br>start building.</h1>
-      <p class="p2"><b style="font-size: 30px;">Sports</b><br><br>We provide sports news so you get better in your life <br>Lorem ipsum dolor sit amet.</p>
-      <p class="p3"><b style="font-size: 30px;">Busniss Today</b><br><br>We provide sports news so you get better in your life <br> Lorem ipsum dolor sit amet.</p>
-      <br><br>
-      <p class="p4"><b style="font-size: 30px;">Politics</b><br><br>We provide sports news so you get better in your life <br>Lorem ipsum dolor sit amet.</p>
-      <p class="p5"><b style="font-size: 30px;">Culture</b><br><br>We provide sports news so you get better in your life <br> Lorem ipsum dolor sit amet.</p>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
   </div>
-  <div class="middle1">
-    <h1 class="main4">For a blog focused on solutions and impact:  <br> "Beyond the headlines, we explore the stories that shape our future."</h1>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/img14.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pubg Mobile</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
   </div>
-  </body>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/img14.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pubg Mobile</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- form feeling -->
+ <div class="mb-31">
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+</div>
+</body>
+
 </html>
