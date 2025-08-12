@@ -6,11 +6,11 @@ body {
 
 /* Navbar */
 .navbar {
-  background-color: #1b2025;
+  background-color: #212529;;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 30px;
+  padding: 8px 15px ;
   color: white;
   position: sticky;
   top: 0;
@@ -74,7 +74,7 @@ body {
 }
 
 .thought {
-  background-color: #1b2025;
+  background-color: #212529;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,9 +82,9 @@ body {
   text-align: center;
 }
 
-.thought-text {
+/* .thought-text {
   max-width: 900px;
-}
+} */
 
 .thought-text h1 {
   font-size: 2rem;
@@ -161,7 +161,7 @@ body {
 @media (max-width: 768px) {
 
   /* Navbar mobile menu */
-  .nav-links {
+    .nav-links {
     display: none;
     flex-direction: column;
     background: black;
@@ -170,13 +170,11 @@ body {
     left: 0;
     width: 100%;
     padding: 15px 0;
-    text-align: center;
+    text-align: center; 
   }
-
-  #menu-toggle:checked+.menu-icon+.nav-links {
-    display: flex;
+  #menu-toggle:checked + .menu-icon + .nav-links {
+    display: flex;    
   }
-
   .menu-icon {
     display: block;
   }

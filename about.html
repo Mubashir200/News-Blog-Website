@@ -10,65 +10,92 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <!-- CSS link -->
+  <title>News Blog Website</title>
+  <link rel="stylesheet" href="navbar.css">
   <link rel="stylesheet" href="about.css">
-  <title>about page</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="logo">News Blog Website</div>
-    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">News Blog Website</a>
 
-    <!-- Navigation Links -->
-    <ul class="nav-links">
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/about.html">About</a></li>
-      <li><a href="/contact.html">Contact</a></li>
-      <li><a href="/blog.html">Blog</a></li>
-    </ul>
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/blog.html" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Blog
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/blog.html">Blog Home</a></li>
+              <li><a class="dropdown-item" href="#">Technology</a></li>
+              <li><a class="dropdown-item" href="#">Politician</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Sports</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
   </nav>
+
   <!-- heading -->
-    <div class="thought">
+
+  <div class="thought">
     <div class="thought-text">
       <h1><b>Our mission is to make building websites easier for everyone.</b></h1>
-      <h2>Start Bootstrap was built on the idea that quality, functional website templates and themes should be available to everyone. Use our open source, free products,
-         or support us by purchasing one of our premium products or services.</h2>
-      <!-- button -->
-    <div class="btn-1" role="group" aria-label="Basic outlined example">
+      <h2>Start Bootstrap was built on the idea that quality, functional website templates and themes should be
+        available to everyone. Use our open source, free products,
+        or support us by purchasing one of our premium products or services.</h2>
 
-      <button type="button" class="btn btn-outline-primary">Read our story</button>
-    
-    </div>
+      <!-- button -->
+      <div class="btn-1" role="group" aria-label="Basic outlined example">
+        <button type="button" class="btn btn-outline-primary">Read our story</button>
+      </div>
     </div>
   </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
 
     <!-- card -->
   <div class="container py-5">
-  <div class="row align-items-center">
-    <!-- Image on the left -->
-    <div class="col-md-6">
-      <img src="images/img8.jpg" alt="Blog Image" class="img-fluid rounded " style="border:solid 5px black;">
-    </div>
+    <div class="row align-items-center">
+      <!-- Image on the left -->
+      <div class="col-md-6">
+        <img src="images/img8.jpg" alt="Blog Image" class="img-fluid rounded " style="border:solid 5px black;">
+      </div>
 
-    <div class="col-md-6">
-      <h1><b>Our founding</b></h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam</p>
+      <div class="col-md-6">
+        <h1><b>Our founding</b></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita.
+          Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam
+        </p>
+      </div>
     </div>
   </div>
-</div>
 
 
-    <div class="hero1">
+  <div class="hero1">
     <div class="hero-text1">
       <h1><b>Growth & beyond</b></h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita.
+        Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam.</p>
     </div>
 
     <div class="hero-image1">
@@ -76,47 +103,52 @@
     </div>
   </div>
 
-<!-- profile -->
-<section class="py-5 bg-light">
-  <div class="container text-center">
-    <h2 class="fw-bold">Our team</h2>
-    <p class="text-muted">Dedicated to quality and your success</p>
-    <div class="row justify-content-center mt-4">
-      
-      <div class="col-6 col-sm-4 col-md-3 mb-4">
-        <img src="images/image16.jpg" class="rounded-circle img-fluid mb-3" alt="">
-        <h5 class="fw-bold">Ibbie Eckart</h5>
-        <p class="text-muted fst-italic">Founder & CEO</p>
-      </div>
-      
-      <div class="col-6 col-sm-4 col-md-3 mb-4">
-        <img src="images/image16.jpg" class="rounded-circle img-fluid mb-3" alt="">
-        <h5 class="fw-bold">Arden Vasek</h5>
-        <p class="text-muted fst-italic">CFO</p>
-      </div>
-      
-      <div class="col-6 col-sm-4 col-md-3 mb-4">
-        <img src="images/image16.jpg" class="rounded-circle img-fluid mb-3" alt="">
-        <h5 class="fw-bold">Toribio Nerthus</h5>
-        <p class="text-muted fst-italic">Operations Manager</p>
-      </div>
-      
-      <div class="col-6 col-sm-4 col-md-3 mb-4">
-        <img src="images/image16.jpg" class="rounded-circle img-fluid mb-3" alt="">
-        <h5 class="fw-bold">Malvina Cilla</h5>
-        <p class="text-muted fst-italic">CTO</p>
+  <!-- profile -->
+  <section class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="fw-bold">Our team</h2>
+      <p class="text-muted">Dedicated to quality and your success</p>
+      <div class="row justify-content-center mt-4">
+
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <img src="images/image16.jpg" class="rounded-circle img-fluid mb-3" alt="">
+          <h5 class="fw-bold">Ibbie Eckart</h5>
+          <p class="text-muted fst-italic">Founder & CEO</p>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <img src="images/image16.jpg" class="rounded-circle img-fluid mb-3" alt="">
+          <h5 class="fw-bold">Arden Vasek</h5>
+          <p class="text-muted fst-italic">CFO</p>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <img src="images/image16.jpg" class="rounded-circle img-fluid mb-3" alt="">
+          <h5 class="fw-bold">Toribio Nerthus</h5>
+          <p class="text-muted fst-italic">Operations Manager</p>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-3 mb-4">
+          <img src="images/image16.jpg" class="rounded-circle img-fluid mb-3" alt="">
+          <h5 class="fw-bold">Malvina Cilla</h5>
+          <p class="text-muted fst-italic">CTO</p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<div class="last">
-  <h1>Copyright claim 2025</h1>
-  <ul>
+  </section>
+  <div class="last">
+    <h1>Copyright claim 2025</h1>
+    <ul>
       <li><a href="#term">Contact</a></li>
       <li><a href="#privacy">Blog</a></li>
       <li><a href="#contact">About</a></li>
     </ul>
-</div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
