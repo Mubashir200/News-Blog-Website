@@ -4,7 +4,7 @@ body {
   overflow: none;
 }
 
-
+/* navbar */
 .navbar {
   background-color: #212529;;
   display: flex;
@@ -125,10 +125,7 @@ body {
   max-width: 50%;
 }
 .sup-text h1 {
-  font-size: 2.5rem;
-}
-.sup-text h2{
-  text-align: left; 
+  font-size: 1.5rem;
 }
 
 /* Thought Section */
@@ -147,7 +144,7 @@ body {
 
 .thought-text h1 {
   font-size: 2rem;
-  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   color: rgb(50, 46, 46);
   margin: 0;
@@ -164,17 +161,17 @@ body {
   text-align: center;
 }
 
-.thought-text2 {
+/* .thought-text2 {
   max-width: 900px;
-}
-.thought-text2 h1{
+} */
+/* .thought-text2 h1{
 
-   font-size: 2.6rem;
-}
+   font-size: 7.6rem;
+} */
 .thought-text2 h1 {
-  font-size: 1.3rem;
-  font-style: italic;
+  font-size: 2.3rem;
   font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: rgb(50, 46, 46);
   margin: 0;
   line-height: 1.5;
@@ -205,7 +202,17 @@ body {
   margin-left: 540px;
   margin-top: 40px;
  }
-
+.footer {
+  background-color: #212529;
+  padding: 15px;
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+}
+.footer p{
+  margin-right: 1150px;
+}
 /* Mobile Styles */
 @media (max-width: 768px) {
   /* Navbar mobile menu */
@@ -217,7 +224,7 @@ body {
     top: 60px;
     left: 0;
     width: 100%;
-    padding: 15px 0 ;
+    padding: 15px 0;
     text-align: center; 
   }
   #menu-toggle:checked + .menu-icon + .nav-links {
@@ -231,6 +238,7 @@ body {
     text-align: center;
     padding: 40px 20px;
   }
+  
   .hero-text, .hero-image {
     max-width: 100%;
   }
@@ -261,5 +269,4 @@ body {
       text-align: center;
       padding: 40px 20px;
    }
-   
 }

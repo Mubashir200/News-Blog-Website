@@ -145,17 +145,20 @@ body {
   border: solid 5px black;
 }
 
-
-.last{
-  background-color: #1b2025;
-  padding: 100px;
-  color: aliceblue;
+.footer {
+  background-color: #212529;
+  padding: 15px;
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+  max-width: 100%;
+  height: auto;
+  display: flex;
 }
-.last h1{
-  font-size: 20px;
-  
+.footer p{
+  margin-right: 1150px;
 }
-
 
 /* Mobile Styles */
 @media (max-width: 768px) {
@@ -210,6 +213,13 @@ body {
 
   .hero-image1 {
     margin-top: 20px;
+  }
+  .footer {
+    padding: 40px 20px;
+  }
+
+  .footer p {
+    font-size: 1.2rem;
   }
 
 }

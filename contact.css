@@ -23,6 +23,17 @@ body {
 .form-control{
   margin-top: 40px;
 }
+.footer {
+  background-color: #212529;
+  padding: 15px;
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+}
+.footer p{
+  margin-right: 1150px;
+}
 
 /* Mobile Styles */
 @media (max-width: 768px) {
