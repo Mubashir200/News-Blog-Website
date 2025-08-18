@@ -6,11 +6,12 @@ body {
 
 /* navbar */
 .navbar {
-  background-color: #212529;;
+  background-color: #212529;
+  ;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 15px ;
+  padding: 8px 15px;
   color: white;
   position: sticky;
   top: 0;
@@ -59,7 +60,7 @@ body {
   background-color: #212529;
   color: white;
   padding: 60px 100px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .hero-text {
@@ -74,6 +75,7 @@ body {
 .hero-text {
   max-width: 50%;
 }
+
 .buttons .btn {
   text-decoration: none;
   padding: 10px 20px;
@@ -87,17 +89,20 @@ body {
   background-color: rgb(109, 244, 114);
   color: rgb(0, 0, 0);
 }
+
 .btn.btn.primary:hover {
   background-color: rgb(169, 243, 198);
   color: black;
   border-color: white;
   transition: all 0.3s ease;
 }
+
 .btn.secondary {
   background-color: transparent;
   color: rgb(255, 255, 255);
   border: 2px solid rgb(250, 250, 250);
 }
+
 .btn.secondary:hover {
   background-color: white;
   color: black;
@@ -111,19 +116,23 @@ body {
   height: auto;
   border-radius: 8px;
 }
+
 /* sup hero Section */
 .sup-hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #ffffff;;
+  background-color: #ffffff;
+  ;
   color: rgb(50, 46, 46);
-  padding: 60px 100px;    
-  flex-wrap: wrap; 
+  padding: 60px 100px;
+  flex-wrap: wrap;
 }
+
 .sup-text {
   max-width: 50%;
 }
+
 .sup-text h1 {
   font-size: 1.5rem;
 }
@@ -179,16 +188,18 @@ body {
 
 
 /* BLOG SECTION */
-.blog-info{
+.blog-info {
   background-color: rgb(243, 146, 146);
   display: flex;
   padding: 80px 100px;
   text-align: center;
 }
+
 .blog-info-text {
   max-width: 900px;
 }
-.blog-info h1{
+
+.blog-info h1 {
   font-size: 2rem;
   font-style: italic;
   font-weight: 500;
@@ -196,13 +207,16 @@ body {
   margin: 0;
   padding-left: 550px;
 }
- .mb-3{
+
+.mb-3 {
   padding-top: 20px;
   width: 440px;
   margin-left: 540px;
   margin-top: 40px;
- }
-.footer {
+}
+
+.footers {
+  max-width: 100%;
   background-color: #212529;
   padding: 15px;
   padding-top: 30px;
@@ -210,11 +224,14 @@ body {
   color: white;
   margin-top: 80px;
 }
-.footer p{
+
+.footers p {
   margin-right: 1150px;
 }
+
 /* Mobile Styles */
 @media (max-width: 768px) {
+
   /* Navbar mobile menu */
   .nav-links {
     display: none;
@@ -225,48 +242,66 @@ body {
     left: 0;
     width: 100%;
     padding: 15px 0;
-    text-align: center; 
+    text-align: center;
   }
-  #menu-toggle:checked + .menu-icon + .nav-links {
-    display: flex;    
+
+  #menu-toggle:checked+.menu-icon+.nav-links {
+    display: flex;
   }
+
   .menu-icon {
     display: block;
   }
+
   .hero {
     flex-direction: column;
     text-align: center;
     padding: 40px 20px;
   }
-  
-  .hero-text, .hero-image {
+
+  .hero-text,
+  .hero-image {
     max-width: 100%;
   }
 
   .hero-image {
     margin-top: 20px;
   }
-   .sup-text {
+
+  .sup-text {
     max-width: 100%;
     font-size: 1rem;
 
   }
-    .thought {
+
+  .thought {
     padding: 40px 20px;
   }
-  .thought-text h1 {            
+
+  .thought-text h1 {
     font-size: 1.2rem;
   }
 
-    .thought2 {
+  .thought2 {
     padding: 40px 20px;
   }
+
   .thought-text2 h1 {
     font-size: 1.2rem;
   }
-   .mb-3{
-      flex-direction: column;
-      text-align: center;
-      padding: 40px 20px;
-   }
+
+  .mb-3 {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .footers {
+      /* flex-wrap: wrap; */
+      display: flex;
+  }
+
+  .footers p {
+     align-items: center;
+  }
 }
